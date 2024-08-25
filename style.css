@@ -1,0 +1,37 @@
+/* Navbar */
+
+
+.navbar {
+    position: relative;
+}
+.navbar-brand {
+    font-family: "Viga", sans-serif;
+    font-weight: 300;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    margin-right: 32px;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border: 1px solid #1707fd33;
+    margin: 0;
+    margin-bottom: -4px;
+}
+
+.gap {
+    padding: 16px;
+    margin: 12px;
+}
+
+
+.container1 {
+    background-color: #0D6EFD;
+    padding: 12px;
+    color: white;
+}
